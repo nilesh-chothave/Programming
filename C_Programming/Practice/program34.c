@@ -11,7 +11,7 @@ void Display(int iNo)
         return;
     }
 
-     for(iCnt = 5;  iCnt>= 0; iCnt--)
+     for(iCnt = iNo;  iCnt>= 0; iCnt--)
     {
         printf(" %d\n",iCnt);
     }
